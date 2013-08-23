@@ -1,0 +1,31 @@
+.item {
+    overflow: auto;
+    width: 100%;
+    border: 1px solid #333333;
+    border-radius: 4px;
+    margin-bottom: 20px;
+    background-color: #FFFFFF;
+}
+
+.itemTitle {
+	background-color: #CCC;
+    clear: both;
+    padding: 5px;
+}
+
+.itemField {
+    width: 50%;
+    /*float: left;*/
+}
+
+.itemList {
+    float: right;
+}
+
+#insertRegister {
+    clear: both;
+}
+
+.ui-autocomplete-loading {
+    background:url('../images/working.gif') no-repeat right center;
+}
